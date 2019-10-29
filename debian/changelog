@@ -1,9 +1,8 @@
-php5.6 (5.6.40-13+0~20191026.23+debian9~1.gbp37e45b+deb9hetz1~exp4) stretch-hetz-experimental; urgency=medium
+php5.6 (5.6.40-13+0~20191026.23+debian9~1.gbp37e45b+deb9hetz1~exp5) stretch-hetz-experimental; urgency=medium
 
   * Adding getallheaders to FPM 
-  * Remove build line about default mysql
 
- -- Geoff Robertson <gr@hetzner.co.za>  Tue, 29 Oct 2019 10:49:21 +0200
+ -- Geoff Robertson <gr@hetzner.co.za>  Tue, 29 Oct 2019 11:03:51 +0200
 
 php5.6 (5.6.40-13+0~20191026.23+debian9~1.gbp37e45b) experimental; urgency=medium
 
