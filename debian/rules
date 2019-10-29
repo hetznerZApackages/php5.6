@@ -90,7 +90,7 @@ MODULE_PACKAGE := \
 LIBTOOL_VERSION := $(shell dpkg-query -f'$${Version}' -W libtool)
 
 # Disable the test now
-RUN_TESTS := yes
+RUN_TESTS := no
 ifneq ($(filter nocheck,$(DEB_BUILD_PROFILES)),)
   $(warning Disabling checks due DEB_BUILD_PROFILES)
   RUN_TESTS := no
